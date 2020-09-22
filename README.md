@@ -1,6 +1,2 @@
 # exercicios_resolvidos_web
-Exercicios resolvidos de prog web - primeiros passos.
-
-✨Hey there!
-
-Desenvolvedor front-end
+Exercicios resolvidos de tecnologias e programacao web - primeiros passos.
