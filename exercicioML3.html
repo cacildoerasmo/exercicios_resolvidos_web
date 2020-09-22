@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>ficha-de-inscricao</title>
+
+<link rel="stylesheet" href="style.css"/>
+
+
+</head>
+
+<body>
+
+
+
+<form>
+
+<fieldset>
+<legend><b>Formul&aacute;rio de Matricula</b></legend>
+
+<p><label for="anome">Nome:</label><input type="text" id="anome" size="35" maxlength="30" placeholder="Nome Completo"/></p>
+<p><label for="adata">Data de Nascimento:</label><input type="date" id="adata"></p>
+Sexo:
+     <input type="radio" id="asexo"name="sexo" checked/><label for="asexo">M</label>
+	 <input type="radio" id="asex" name="sexo"/><label for="asex">F</label>
+<p><label for="aemail">Email:</label><input type="email"id="aemail" size="30" maxlength="30" placeholder="Insira o seu Email"/></p>
+Natural de:
+<select>
+<optgroup label="Zona Sul">
+<option value="M">Maputo</option>
+<option>Maputo Cidade</option>
+<option>Gaza</option>
+<option>Inhambane</option>
+</optgroup>
+
+<optgroup label="Zona Centro">
+<option>Manica</option>
+<option>Sofala</option>
+<option>Tete</option>
+<option>Zambezia</option>
+</optgroup>
+
+<optgroup label="Zona Norte">
+<option>Nampula</option>
+<option>Niassa</option>
+<option>Cabo Delgado</option>
+</optgroup>
+
+</select>
+<p><label for="adate">Data de Emiss&atilde;o:</label><input type="date" id="adate" ></p>
+<p><label for="aresidencia">Resid&ecirc;ncia:</label><input type="text" id="aresidencia" size="20" maxlength="20" placeholder="N&ordm; da casa,quarteir&atilde;o..."/></p>
+<p><label for="">Habilita&ccedil;&otilde;es literarias:<input type="text" size="25" maxlength="25" placeholder="Grau de ensino"/></p>
+<p><label for="abi">B.I:</label><input type="number" id="abi" size="25" maxlength="25" placeholder="N&uacute;mero do B.I"/></p>
+<p><label for="afilho">Filho de:</label><input type="text" id="afilho"size="25" maxlength="25" placeholder="Nome do seu pai"/></p>
+<p><label for="aed">E de:</label><input type="text" id="aed" size="25" maxlength="25" placeholder="Nome da sua m&atilde;e"/></p>
+
+
+Curso:
+<select>
+     <option>Direito</option>
+	 <option>Marketing</option>
+	 <option>Multim&eacute;dia</option>
+	 <option>Gestao Empresarial</option>
+	 <option>Gestao de Recursos Humanos</option>
+     <option>Inform&aacute;tica de gest&atilde;o</option>
+	 <option>Inform&aacute;tica de sistemas</option>
+	 <option>Contabilidade e Auditoria</option>
+	 <option>Comunica&ccedil;&atilde;o e Rela&ccedil;&otilde;es Empresariais</option>
+	 </select>
+<p>Per&iacute;odo:</p>
+  
+     <input type="radio" id="alaboral"name="laboral"checked/><label for="alaboral">Laboral</label>
+     <input type="radio" id="aposlaboral" name="laboral"/><label for="aposlaboral">P&oacute;s - Laboral</label>	 
+<p><label for="aocup">Ocupa&ccedil;&atilde;o:</label><textarea name="nome" id="aocup"cols="30" rows="5" placeholder="Comente em que ano iniciou..."></textarea></p>
+<p><label for="asenha">Senha:</label><input type="password" id="asenha" size="6" maxlength="6"  placeholder="6 Digitos"/></p>
+<p><label for="asenhas">Contacto(+258):</label><input type="number" id="asenhas" size="15" maxlength="9" placeholder="Contacto V&aacute;lido"></p>
+<p><input type="submit" name="inscrever" value="Inscrever"/></p>
+
+</fieldset>
+</form>
+
+
+</body>
+
+</html>
